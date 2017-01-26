@@ -45,16 +45,16 @@ module.exports = {
       //.assert.containsText("#main", "Clifton")
       //.assert.urlEquals('https://order.chipotle.com/?_ga=1.48495968.795510196.1485274896')
       .useCss()
-      
+      .end();
   },
-
+/*
   'order' : function(client) {
     client
-      .click('#BURRITO BOWL')
-      //.click('/html/body/div/div/cmg-order-entree/div/div[3]/cmg-entrees/div/div[1]/div[2]/div/a/cmg-entree-tile')
+      .
+      .click('#search-button')
       .pause(5000)
-      .end();
+    
   }
-  
+  */
 
 };

@@ -1,8 +1,8 @@
 {
   "src_folders" : ["./tests"],
   "output_folder" : "./reports",
-  //"custom_commands_path" : "./examples/custom-commands",
-  //"page_objects_path" : "./examples/pages",
+  "custom_commands_path" : "./custom-commands",
+  "page_objects_path" : "./pages",
   "custom_assertions_path" : "",
   "globals_path" : "",
   "live_output" : false,
@@ -12,7 +12,7 @@
 
   "selenium" : {
     "start_process" : false,
-    "server_path" : "C:/Users/arose/Desktop/Chipotle/binselenium-server-standalone-3.0.1.jar",
+    "server_path" : "C:/Users/arose/Desktop/Chipotle/bin/selenium-server-standalone-3.0.1.jar",
     "log_path" : "",
     "host" : "127.0.0.1",
     "port" : 4444,

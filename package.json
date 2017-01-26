@@ -93,7 +93,7 @@
   },
   "files": [
     "bin",
-    "examples",
+    "tests",
     "lib",
     "README.md",
     "LICENSE.md",
