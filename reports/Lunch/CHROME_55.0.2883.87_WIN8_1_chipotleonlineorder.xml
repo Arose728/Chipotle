@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="3">
+            tests="5">
 
   <testsuite name="chipotleonlineorder"
     errors="0" failures="0" hostname="" id="" package="Lunch" skipped="0"
-    tests="3" time="37.57" timestamp="Thu, 26 Jan 2017 18:52:44 GMT">
+    tests="5" time="19.23" timestamp="Thu, 26 Jan 2017 21:49:12 GMT">
   
-    <testcase name="open chipotle.com" time="20.04" assertions="2">
+    <testcase name="open chipotle.com" time="9.348" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="find your chipotle" time="5.542" assertions="1">
+    <testcase name="find your chipotle" time="5.653" assertions="1">
 
     
     </testcase>
   
-    <testcase name="select Clifton" time="11.99" assertions="0">
+    <testcase name="select Clifton" time="0.08800" assertions="0">
+    </testcase>
+  
+    <testcase name="order" time="3.020" assertions="0">
+    </testcase>
+  
+    <testcase name="special instructions" time="1.119" assertions="0">
     </testcase>
   
   

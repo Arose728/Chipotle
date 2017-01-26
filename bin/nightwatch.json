@@ -11,7 +11,7 @@
   "test_workers" : false,
 
   "selenium" : {
-    "start_process" : false,
+    "start_process" : true,
     "server_path" : "C:/Users/arose/Desktop/Chipotle/bin/selenium-server-standalone-3.0.1.jar",
     "log_path" : "",
     "host" : "127.0.0.1",
