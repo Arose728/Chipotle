@@ -23,6 +23,7 @@ module.exports = {
   'find your chipotle' : function(client) {
     client
       .window_handles(function(result) {
+          client.assert.equal(result.value.length, 2, 'There should be two windows open.');
           var handle = result.value[1];
           this.switchWindow(handle);
         })
