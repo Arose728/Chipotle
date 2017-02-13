@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+	-'Stable'
+env:
+	-NODE_ENV=nightwatch
+
+before_script:
+	-
+
+script:
+	- node nightwatch tests/lunch/chipotleonlineorder.js
+
