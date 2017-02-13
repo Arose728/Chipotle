@@ -4,4 +4,4 @@ node_js:
 before_script:
  -
 script:
- - node nightwatch tests/lunch/chipotleonlineorder.js
+ - node nightwatch -g lunch
