@@ -1,32 +1,934 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="16"
             failures="0"
             tests="5">
 
   <testsuite name="chipotleonlineorder"
-    errors="0" failures="0" hostname="" id="" package="Lunch" skipped="0"
-    tests="5" time="19.23" timestamp="Thu, 26 Jan 2017 21:49:12 GMT">
+    errors="16" failures="0" hostname="" id="" package="lunch" skipped="0"
+    tests="5" time="30.98" timestamp="Thu, 02 Feb 2017 18:01:09 GMT">
   
-    <testcase name="open chipotle.com" time="9.348" assertions="2">
+    <testcase name="open chipotle.com" time="9.239" assertions="2">
 
     
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[1]/div/form/input&quot; using: xpath
+    at Object.find your chipotle (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:41:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;817&quot;]&quot; using: xpath
+    at Object.select Clifton (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:54:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[3]/cmg-entrees/div/div[1]/div[2]/div/a/cmg-entree-tile&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:67:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;carnitas&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:73:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;ricebrown&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:78:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;beansblack&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:82:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;guactopping&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:86:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsacorn&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:91:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsagreenchili&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:93:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;cheese&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:95:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;lettuce&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:97:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;chipsandguacamole&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:99:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;sodalarge&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:101:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;next&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:105:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;bag-container&quot;]&quot; using: xpath
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:110:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:113:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="find your chipotle" time="5.653" assertions="1">
+    <testcase name="find your chipotle" time="7.105" assertions="2">
+
+    
 
     
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[1]/div/form/input&quot; using: xpath
+    at Object.find your chipotle (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:41:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;817&quot;]&quot; using: xpath
+    at Object.select Clifton (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:54:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[3]/cmg-entrees/div/div[1]/div[2]/div/a/cmg-entree-tile&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:67:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;carnitas&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:73:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;ricebrown&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:78:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;beansblack&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:82:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;guactopping&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:86:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsacorn&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:91:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsagreenchili&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:93:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;cheese&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:95:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;lettuce&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:97:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;chipsandguacamole&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:99:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;sodalarge&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:101:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;next&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:105:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;bag-container&quot;]&quot; using: xpath
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:110:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:113:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="select Clifton" time="0.08800" assertions="0">
+    <testcase name="select Clifton" time="0.8790" assertions="0">
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[1]/div/form/input&quot; using: xpath
+    at Object.find your chipotle (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:41:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;817&quot;]&quot; using: xpath
+    at Object.select Clifton (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:54:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[3]/cmg-entrees/div/div[1]/div[2]/div/a/cmg-entree-tile&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:67:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;carnitas&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:73:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;ricebrown&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:78:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;beansblack&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:82:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;guactopping&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:86:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsacorn&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:91:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsagreenchili&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:93:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;cheese&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:95:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;lettuce&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:97:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;chipsandguacamole&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:99:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;sodalarge&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:101:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;next&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:105:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;bag-container&quot;]&quot; using: xpath
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:110:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:113:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="order" time="3.020" assertions="0">
+    <testcase name="order" time="11.99" assertions="0">
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[1]/div/form/input&quot; using: xpath
+    at Object.find your chipotle (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:41:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;817&quot;]&quot; using: xpath
+    at Object.select Clifton (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:54:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[3]/cmg-entrees/div/div[1]/div[2]/div/a/cmg-entree-tile&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:67:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;carnitas&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:73:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;ricebrown&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:78:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;beansblack&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:82:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;guactopping&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:86:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsacorn&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:91:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsagreenchili&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:93:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;cheese&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:95:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;lettuce&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:97:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;chipsandguacamole&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:99:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;sodalarge&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:101:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;next&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:105:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;bag-container&quot;]&quot; using: xpath
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:110:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:113:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
-    <testcase name="special instructions" time="1.119" assertions="0">
+    <testcase name="special instructions" time="1.764" assertions="0">
     </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[1]/div/form/input&quot; using: xpath
+    at Object.find your chipotle (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:41:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;817&quot;]&quot; using: xpath
+    at Object.select Clifton (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:54:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;/html/body/div/div/cmg-order-entree/div/div[3]/cmg-entrees/div/div[1]/div[2]/div/a/cmg-entree-tile&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:67:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;carnitas&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:73:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;ricebrown&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:78:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;beansblack&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:82:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;guactopping&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:86:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsacorn&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:91:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;salsagreenchili&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:93:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;cheese&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:95:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;lettuce&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:97:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;chipsandguacamole&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:99:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;sodalarge&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:101:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;next&quot;]&quot; using: xpath
+    at Object.order (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:105:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+ERROR: Unable to locate element: &quot;//*[@id=&quot;bag-container&quot;]&quot; using: xpath
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:110:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.special instructions (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:113:8)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+    at C:\Users\arose\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\arose\node_modules\q\q.js:137:13)
+    at flush (C:\Users\arose\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+      </system-err>
   
   
   </testsuite>

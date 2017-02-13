@@ -2,9 +2,17 @@
 chipotle order online
 */
 
+
 module.exports = {
   'open chipotle.com' : function (client) {
+
+    // init WebdriverJS
+    var client = require('webdriverjs')
+    // init WebdriverCSS
+    require('webdrivercss').init(client);
+
     client
+      .init()
       .url('https://chipotle.com/')
       //.maximizeWindow()
       .url(function(result){
@@ -17,6 +25,12 @@ module.exports = {
       .useCss()
       .waitForElementPresent('body', 2000)
       .saveScreenshot('./screenshots/screenshot2.png')
+
+      .webdrivercss('header',{
+        elem: '#header',
+        screenWidth: [320, 480]
+      })
+
       
   },
 

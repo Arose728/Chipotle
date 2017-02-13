@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="5">
+
+  <testsuite name="chipotleonlineorder"
+    errors="1" failures="0" hostname="" id="" package="lunch" skipped="4"
+    tests="5" time="0.008000" timestamp="Thu, 02 Feb 2017 18:15:40 GMT">
+  
+    <testcase name="open chipotle.com" time="0.008000" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Lunch / Chipotleonlineorder / open chipotle.com]:
+
+  Error: Cannot find module &#39;webdriverjs&#39;
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.open chipotle.com (C:\Users\arose\Desktop\Chipotle\Chipotle\tests\lunch\chipotleonlineorder.js:10:18)
+    at Module.call (C:\Users\arose\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\arose\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\arose\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\arose\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\arose\node_modules\q\q.js:796:13)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="find your chipotle">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="select Clifton">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="order">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="special instructions">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
