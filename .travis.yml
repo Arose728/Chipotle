@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-	- 6
+ - "stable"
 before_script:
-	-
+ -
 script:
-	- node nightwatch tests/lunch/chipotleonlineorder.js
+ - node nightwatch tests/lunch/chipotleonlineorder.js
